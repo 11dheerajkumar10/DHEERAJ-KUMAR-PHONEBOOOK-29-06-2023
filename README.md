@@ -1,70 +1,50 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This mini project belongs to the Task given by 
 
-## Available Scripts
+Project Name: Phone Book.
+Technologies used:
+Frontend: React Js, 
+Backend: Node Js
+Database: MySQL
+Libraries: React Bootstrap, axios, express Js
 
-In the project directory, you can run:
+Project Discription
+Project PhoneBook is a React-Node-MySql based application. 
 
-### `npm start`
+React
+* Fetch all the data with axios library
+* User can add any contact number along with the name, email and city.
+   For this I have used Bootstrap components like Modal, Button, Form
+* User can view the contact info at a glance
+   For this I have used Bootstrap components like Table
+* User can update any information if he wants
+   I have used Bootstrap components like button, Modal: To open the Modal and do the nesseary updates
+* User can get details of the particular contact.
+   I have used Bootstrap components like button, Modal, Table: To get details of particular contact
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Node Js
+* Made all the APis on Node
+* Followed MVC Pattern for creating API
+* Get API or Getting data
+* Post for Adding Contact
+* Upadte for Upading data
+* Used Middleware like cors
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+MySQL
+* Created Database in MySQL
+* Database Name: contactbook
+* Table Name: contact
+* Table contains Four Column, named: phone_number, name, email, address
+* I have given unique to phone_number
 
-### `npm test`
+Necessary Steps Access the application
+* Clone all the files and folders
+* run npm i for both : Frontend & Backend
+* Import Database to the system
+* By follwing These step, the application will run
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
